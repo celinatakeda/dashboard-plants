@@ -18,7 +18,6 @@ let climate = {
 
 }
 
-
 app.route('/api').get((req, res) => res.json({
   climate
 }))
@@ -36,7 +35,7 @@ app.route('/api/:id').get((req, res) => {
 })
 
 app.route('/api').post((req, res) => {
-  const lastId = users[users.length - 1].id
+  const lastId = climate[climate.length - 1].id
   climate.push({
     id: lastId + 1,
     temperature: req.body.temperature,
