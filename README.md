@@ -1,5 +1,5 @@
 # Dashboard Plants
-Contribuindo para desenvolvendo do aplicativo dashboard plants. Cont
+Contribuindo para desenvolver o aplicativo dashboard plants.
 
 
 
