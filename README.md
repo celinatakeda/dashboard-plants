@@ -1,7 +1,7 @@
 # Dashboard Plants
 Contribuindo para desenvolver o aplicativo dashboard plants.
 
-## Ferramentas Utilizadas
+## Tecnologias Utilizadas
 HTML5, CSS3, JavaScript, NodeJS, EXpress, Axios.
 
 ![image](https://user-images.githubusercontent.com/82118386/185173698-391c6108-f54c-4395-bd5e-485b2458e519.png)
