@@ -1,5 +1,5 @@
 # Dashboard Plants
-Contribuindo para desenvolver o aplicativo dashboard plants.
+Contribuindo no desenvolvimento do aplicativo dashboard plants.
 
 ## Tecnologias Utilizadas
 HTML5, CSS3, JavaScript, NodeJS, EXpress, Axios.
