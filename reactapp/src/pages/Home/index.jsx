@@ -1,5 +1,5 @@
 import './styles.css';
-
+import { Button } from '../../components/Button';
 import { On } from '../../pages/On';
 
 export function Home() {
@@ -9,7 +9,7 @@ export function Home() {
       <div class="waterPump">      
         <img src="../src/assets/lampada.png" alt="" />
         <br></br>
-        <button type="button" onClick="../../pages/On">ON</button>                
+        <Button />                       
     </div>
   </>
   )

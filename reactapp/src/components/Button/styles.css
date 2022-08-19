@@ -1,14 +1,13 @@
-.button {
-  background: var(--base-color-second);
-  width: 100px;
-  margin: 0 auto;
-  border-radius: 5px;  
-  color: #fff;
-  text-align: center;
+button {
+  background-color: #00875F;
+  width: 6.25rem;
+  
+  border-radius: 5px;
+  color: #fff;  
+  cursor: pointer;
   transition: background 0.3s;
 }
 
-.button:hover {
-  background:var(--base-color-alt);
-  cursor: pointer;
+button:hover {
+  background: #48875F;
 }
