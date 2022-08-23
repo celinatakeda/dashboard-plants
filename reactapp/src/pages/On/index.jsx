@@ -1,12 +1,8 @@
-import { useState } from 'react';
-
 import './styles.css';
 
 import { Button} from '../../components/Button';
 
 export function On() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <header>
@@ -21,29 +17,29 @@ export function On() {
       </div>
 
       <div>
-      <p class="title">Humidity</p>
-      <img src="../src/assets/gota.png" alt="" />
-      <p id="apiResult2">0</p>
-    </div>
-
-    <div>
-      <p class="title">Sun</p>
-      <img src="../src/assets/sol.png" alt="" />
-      <p id="apiResult3">0</p>
-    </div>
-
-    <div>
-      <p class="title">WaterPump</p>
-      <img src="../src/assets/lampada.png" alt="" />
-      <br></br>      
-      <button type="button" onClick="../../pages/Home">OFF</button>
-    </div>
-        
+        <p class="title">Humidity</p>
+        <img src="../src/assets/gota.png" alt="" />
+        <p id="apiResult2">0</p>
       </div>
 
-      
-    </>
+      <div>
+        <p class="title">Sun</p>
+        <img src="../src/assets/sol.png" alt="" />
+        <p id="apiResult3">0</p>
+      </div>
+
+      <div>
+        <p class="title">WaterPump</p>
+        <img src="../src/assets/lampada.png" alt="" />
+        <br></br>  
+        <Button estado="OFF" />      
+      </div>
+        
+    </div>      
+  </>
   )
 }
+
+
 
 

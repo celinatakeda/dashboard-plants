@@ -1,28 +1,23 @@
-import {useState} from 'react';
-
+import {Link, useNavigate} from 'react-router-dom';
 import './styles.css';
 
-export function Button() {
+export function Button(props) {
+  const navigate = useNavigate();
 
-  const [value, setValue] = useState(0);
-  const [estado, setEstado] = useState("ON")
-
-  function adicionar() {
-    if (value == 0) {
-      setEstado("ON")
-    }
-    if (value == 1 ) {
-      return setEstado("OFF")
-    }
-  }
+  const chamarOn = (() => {
+    return (     
+        navigate('./On')      
+    )
+    
+  });
+  
 
   return (
     <>
-    <button type="button">{estado}</button>
-    
+      <button onClick={chamarOn}>      
+        {props.estado}        
+      </button>    
     </>
   )
-
-  
 
 }

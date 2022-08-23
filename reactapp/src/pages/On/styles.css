@@ -63,7 +63,7 @@ header h1 {
   transition: background 0.3s;
 }
 
-button:hover {
+.waterPump button:hover {
   background: #48875F;
 }
 
