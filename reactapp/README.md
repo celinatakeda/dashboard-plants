@@ -1,5 +1,5 @@
-# ReactJS
-Projeto Dashboard Plants criado com ReactJs e Vite.
+# Dashboard Plants
+Projeto criado com ReactJs e Vite.
 
-Para navegação da página foi utilizada o React router dom.
+Para navegação da página foi utilizada o react router dom.
 
