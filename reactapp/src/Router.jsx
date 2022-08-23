@@ -1,12 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
+import { Off } from "./pages/Off";
 import { On } from "./pages/On";
 
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/On" element={<On />} />      
+      <Route path="/Off" element={<Off />} />      
+      <Route path="/On" element={<On />} />
+           
     </Routes>
   )
 }

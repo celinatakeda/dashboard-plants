@@ -1,20 +1,20 @@
-import {Link, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import './styles.css';
 
-export function Button(props) {
+export function Button(props) {  
   const navigate = useNavigate();
 
-  const chamarOn = (() => {
-    return (     
-        navigate('./On')      
-    )
-    
-  });
-  
+   function MudarPagina() {
+    if (props.estado == "ON") {        
+        navigate('../On')         
+     } else {
+      navigate('../Off')
+     }
+   }    
 
   return (
     <>
-      <button onClick={chamarOn}>      
+      <button onClick={MudarPagina}>      
         {props.estado}        
       </button>    
     </>
