@@ -1,5 +1,8 @@
 # Dashboard Plants
-Projeto criado com ReactJs e Vite.
+Projeto criado com ReactJS e Vite.
 
-Para navegação da página foi utilizada o react router dom.
+Para consumir API no frontend foi utilizada Axios.
+
+Para controle de navegação das páginas foi utilizada o react router dom.
+
 

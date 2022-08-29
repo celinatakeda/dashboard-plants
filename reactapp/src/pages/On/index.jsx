@@ -13,8 +13,7 @@ export function On() {
   useEffect(() => {
     axios.get(url)
       .then((response) => {
-        setValues(response.data.climate)
-        console.log(values)
+        setValues(response.data.climate)        
       })
       .catch(() => {
         console.log('Deu ERRADO')
