@@ -11,9 +11,9 @@ app.use(express.json())
 
 let climate = {
   id: 1,
-  temperature: "21.80 C",
-  humidity: "47.00",
-  sun: "0",
+  temperature: "27.10 C",
+  humidity: "41.00",
+  sun: "1",
   waterPump: "1",
 
 }
