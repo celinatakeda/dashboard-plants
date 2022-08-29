@@ -27,7 +27,7 @@ header h1 {
   border: none;   
 }
 
-.container #apiResult1, #apiResult2, #apiResult3  {
+.container #apiResult {
   background: var(--base-color-second);
   color: white;
   text-align: center;

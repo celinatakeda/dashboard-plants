@@ -31,7 +31,7 @@ export function On() {
         <div >
           <p class="title">Temperature</p>
           <img src="../src/assets/termometro1.png" />
-          <p id="apiResult1">
+          <p id="apiResult">
            {values.temperature}
           </p>
       </div>        
@@ -39,13 +39,13 @@ export function On() {
       <div>
         <p class="title">Humidity</p>
         <img src="../src/assets/gota.png" alt="" />
-        <p id="apiResult2">{values.humidity}</p>
+        <p id="apiResult">{values.humidity}</p>
       </div>
 
       <div>
         <p class="title">Sun</p>
         <img src="../src/assets/sol.png" alt="" />
-        <p id="apiResult3">{values.sun}</p>
+        <p id="apiResult">{values.sun}</p>
       </div>
 
       <div>
