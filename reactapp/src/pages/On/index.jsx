@@ -1,4 +1,4 @@
-import React, { useEffect,useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import axios from 'axios';
 import './styles.css';
 
@@ -38,13 +38,17 @@ export function On() {
       <div>
         <p class="title">Humidity</p>
         <img src="../src/assets/gota.png" alt="" />
-        <p id="apiResult">{values.humidity}</p>
+        <p id="apiResult">
+          {values.humidity}
+        </p>
       </div>
 
       <div>
         <p class="title">Sun</p>
         <img src="../src/assets/sol.png" alt="" />
-        <p id="apiResult">{values.sun}</p>
+        <p id="apiResult">
+          {values.sun}
+        </p>
       </div>
 
       <div>

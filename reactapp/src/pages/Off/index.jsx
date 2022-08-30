@@ -9,8 +9,7 @@ export function Off() {
         <div class="waterPump">      
           <img src="../src/assets/lampada.png" alt="" />
           <br></br>          
-            <Button estado="ON"                        
-            />
+            <Button estado="ON" />
         </div>
     </>
     );
