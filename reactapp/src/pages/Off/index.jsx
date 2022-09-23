@@ -1,17 +1,19 @@
 import React from 'react';
 import './styles.css';
+
+import { Sidebar } from '../../components/Sidebar'
 import { Button } from '../../components/Button';
 
 export function Off() { 
     return (
-      <>
-        <h1>Bem Vindo !!</h1>      
+      <div class="page">
+        <Sidebar />
         <div class="waterPump">      
-          <img src="../src/assets/lampada.png" alt="" />
-          <br></br>          
+          <h1>Bem Vindo !!</h1>      
+          <img src="../src/assets/lampada.png" alt="" />                
             <Button estado="ON" />
         </div>
-    </>
+    </div>
     );
 }
 
