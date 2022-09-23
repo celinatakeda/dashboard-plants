@@ -1,7 +1,11 @@
-.page {
-  border: 2px solid;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page { 
   min-height: 100vh;
-  display: flex;
+  display: flex;  
 }
 
 aside {
@@ -21,18 +25,4 @@ aside img {
   margin-top: 40px;
 }
 
-aside p {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 20px;
-}
-
-aside p a {
-  text-decoration: none;
-  color: #D4D4D8;  
-}
-
-aside p a:hover {
-  color: #fff;
-}
 

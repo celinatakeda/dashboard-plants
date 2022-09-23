@@ -1,6 +1,8 @@
+import { ButtonSidebar } from '../ButtonSidebar';
 import './styles.css';
 
-export function Sidebar() {
+export function Sidebar() { 
+
   return (
     <div class="page">
       <aside>
@@ -8,12 +10,11 @@ export function Sidebar() {
           <img src="https://avatars.githubusercontent.com/u/112397871?s=200&v=4" />
           <span>Organization</span>
         </div>
-
-        <div id="rootMenu">
-          <p><a href="">Home</a></p>
-          <p><a href="./src/pages/sobre/index.jsx">Sobre</a></p>
-          <p><a href="./src/pages/">Contato</a></p>          
-        </div>
+        
+          <ButtonSidebar estado="Home" />
+          <ButtonSidebar estado="Sobre" />
+          <ButtonSidebar estado="Contato" />                   
+        
       </aside>
     </div>
   )
