@@ -3,8 +3,7 @@ import { Router }  from "./Router";
 
 import { BrowserRouter } from "react-router-dom";
 
-function App() {
- 
+function App() { 
   return (
     <>
       <BrowserRouter>
