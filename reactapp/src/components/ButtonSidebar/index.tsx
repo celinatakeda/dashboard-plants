@@ -1,7 +1,11 @@
 import {useNavigate} from 'react-router-dom';
 import './styles.css';
 
-export function ButtonSidebar(props) {
+type BtnSidebarProps = {
+  estado: string;
+} 
+
+export function ButtonSidebar(props: BtnSidebarProps) {
 
   const navigate = useNavigate(); 
   
@@ -19,7 +23,7 @@ export function ButtonSidebar(props) {
 
   return (
     <>
-      <button class="btn" onClick={MudarPagina}>
+      <button className="btn" onClick={MudarPagina}>
         {props.estado}             
       </button>    
     </>

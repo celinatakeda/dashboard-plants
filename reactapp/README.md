@@ -36,6 +36,49 @@ O arquivo main.jsx terá a função de renderizar o componente <App /> e inserir
 
 ```
 
+## Adicionando TypeScript
+```
+Instalando o TypeScript no projeto:
+
+npm install --typescript --save-dev
+
+Criando o arquivo tsconfig.json
+
+tsconfig.json
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "./src"
+  ]
+}
+
+Instalando o @types do react
+
+npm i --save-dev @types/react
+
+```
+
 ##
 ![tela1](https://user-images.githubusercontent.com/82118386/187218191-fdf89cca-e5de-4297-a8f2-d33d26129de8.png)
 

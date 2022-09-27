@@ -1,7 +1,11 @@
 import {useNavigate} from 'react-router-dom';
 import './styles.css';
 
-export function Button(props) {  
+type BtnProps = {
+  estado: string;
+}
+
+export function Button(props: BtnProps) {  
 
   const navigate = useNavigate();
 
