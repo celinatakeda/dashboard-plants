@@ -5,7 +5,7 @@ Contribuindo no desenvolvimento do aplicativo dashboard plants.
 HTML5, CSS3, JavaScript, NodeJS, EXpress, Axios.
 
 <p>
-  <img src=".github/pageOne.png">
+  <img src=".github/pageOne.png" width="100">
 </p>
 
 <p>
