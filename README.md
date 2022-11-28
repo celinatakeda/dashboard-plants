@@ -9,7 +9,7 @@ HTML5, CSS3, JavaScript, NodeJS, EXpress, Axios.
 </p>
 
 <p align="center">
-  <img src=".github/pageTwo.png">
+  <img src=".github/pageTwo.png" width="500">
 </p>
 
 
